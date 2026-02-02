@@ -1,0 +1,115 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 1008px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    height: 62px;
+    background-color: #02918c;
+}
+
+.header .container {
+    height: 100%;
+}
+
+.logo {
+    display: inline-block;
+    height: 62px;
+    line-height: 62px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    height: 630px;
+    background-image: url('./main-pic.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* About Section */
+.about {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.about-title {
+    font-size: 46px;
+    font-weight: bold;
+    color: #02918c;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    font-size: 16px;
+    color: #7e8287;
+    text-align: center;
+    max-width: 860px;
+    margin: 0 auto 60px;
+    line-height: 1.6;
+}
+
+/* Features Grid */
+.features {
+    text-align: center;
+}
+
+.feature-item {
+    display: inline-block;
+    width: 230px;
+    margin: 0 10px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.feature-icon {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.feature-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7e8287;
+    margin-bottom: 15px;
+}
+
+.feature-text {
+    font-size: 14px;
+    font-weight: normal;
+    color: #7e8287;
+    line-height: 21px;
+}
+
+/* Footer */
+.footer {
+    height: 79px;
+    background-color: #000;
+    line-height: 79px;
+}
+
+.footer-text {
+    font-size: 12px;
+    font-weight: normal;
+    color: #7e8287;
+    text-align: center;
+}
